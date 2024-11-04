@@ -4,10 +4,10 @@ https://roadmap.sh/projects/github-user-activity
 ### linux instructions
 
 #### Step 1:
-Copy ./actclivity/ directory and its contents to a directory.
+Clone project
 
 #### Step 2:
-Make the actclivity.py file executable, 
+Make the actclivity/actclivity.py file executable, 
 
 ```
 chmod +x actclivity.py
