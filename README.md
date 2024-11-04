@@ -22,3 +22,5 @@ Make the file accessable everywhere.
 ```
 sudo ln -s ~/path/to/directory/actclivity/actclivity.py /usr/local/bin/actclivity
 ```
+
+TODO Windows instructions
