@@ -15,11 +15,10 @@ def github(username):
         with urllib.request.urlopen(request) as response:
             # Parse the response to JSON
             data = json.load(response)
-            return data
-
-    except urllib.error.HTTPError as e:
-        print(f"HTTP error: {e.code} - {e.reason}")
-    except urllib.error.URLError as e:
-        print(f"URL error: {e.reason}")
+            if data == []:
+                return None
+            else:
+                return data
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"!ERROR: {e}")
+        return None
